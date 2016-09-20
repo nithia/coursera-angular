@@ -38,16 +38,16 @@
         quantity: "10 kg"
       },
       {
+        name: "Chocolate",
+        quantity: "6 bars"
+      },
+      {
         name: "Chips",
         quantity: "5 bags"
       },
       {
         name: "Beer",
         quantity: "99 bottles"
-      },
-      {
-        name: "Chocolate",
-        quantity: "6 bars"
       }
     ];
 
