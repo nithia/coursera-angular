@@ -55,7 +55,7 @@
 
     checkOffService.checkOffItem = function(itemIndex) {
       var bought = itemsToBuy.splice(itemIndex, 1);
-      boughtItems.unshift(bought[0]);
+      boughtItems.push(bought[0]);
     };
 
     checkOffService.getItemsToBuy = function () {
