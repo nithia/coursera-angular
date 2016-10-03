@@ -37,7 +37,7 @@
       }
     };
 
-    var compareItems = function (a, b) {
+    var compareNames = function (a, b) {
       var aName = a.name.toLowerCase();
       var bName = b.name.toLowerCase();
 
@@ -57,7 +57,7 @@
       })
       .then(function (response) {
         console.log("HTTP response", response);
-        return response.data.menu_items.filter(makeFilter(searchTerm)).sort(compareItems);
+        return response.data.menu_items.filter(makeFilter(searchTerm)).sort(compareNames);
       })
       .catch(function (error) {
         console.log("Something went wrong", error);
