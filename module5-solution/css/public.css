@@ -113,6 +113,64 @@ h3.menu-item-title {
 }
 /* END SINGLE CATEGORY PAGE */
 
+/* SIGNUP PAGE */
+legend {
+  color: inherit;
+}
+
+form {
+  width: 50%;
+}
+
+button.btn-signup {
+  font-size: 1.1em;
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  /*border: 2px solid #fff;*/
+  background-color: #f6b319;
+  color: #951c49;
+
+}
+
+input.input-signup {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom: 1px solid #f6b319;
+  border-left-width: 0;
+  background-color: #61122f;
+  color: #fff;
+  margin-bottom: 5px;
+  width: 100%;
+}
+/* END SIGNUP PAGE */
+
+/* MYINFO PAGE */
+.myinfo-title {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 2px;
+}
+
+.myinfo-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+a.myinfo-link {
+  color: #f6b319;
+}
+
+a.myinfo-link :link :visited {
+  text-decoration: none;
+}
+
+a.myinfo-link :hover :active {
+  text-decoration: underline;
+}
+
+/* END MYINFO PAGE */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
